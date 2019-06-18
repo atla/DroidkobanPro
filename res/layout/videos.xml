@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:gravity="center|center" android:background="#00000000">
+		<ScrollView android:id="@+id/VideoView" android:layout_height="fill_parent" android:layout_width="fill_parent">
+			<LinearLayout android:id="@+id/LinearLayout04"
+				android:layout_height="wrap_content"
+				android:gravity="center|center" android:orientation="vertical" android:layout_width="fill_parent">
+				<LinearLayout android:gravity="bottom"
+					android:layout_height="120dp"
+					android:layout_width="180dp" android:id="@+id/video4" android:background="@drawable/video4" android:layout_margin="20dp">
+					<TextView android:id="@+id/TextView01"
+						android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#fff"
+						android:background="#aa000000"
+						android:textSize="11sp" android:text="Find out how purchasable addons work" android:gravity="left"></TextView>
+				</LinearLayout><LinearLayout android:gravity="bottom"
+					android:background="@drawable/video1"
+					android:id="@+id/video1" android:layout_height="120dp"
+					android:layout_width="180dp" android:layout_margin="20dp">
+					<TextView android:id="@+id/TextView01"
+						android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#fff"
+						android:background="#aa000000"
+						android:text="See an introduction to the new waypoint based movement system"
+						android:textSize="11sp" android:gravity="left"></TextView>
+				</LinearLayout>
+				<LinearLayout android:gravity="bottom"
+					android:background="@drawable/video2" android:id="@+id/video2"
+					android:layout_height="120dp"
+					android:layout_width="180dp" android:layout_margin="20dp">
+					<TextView android:id="@+id/TextView01"
+						android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#fff"
+						android:background="#aa000000" android:text="Droidkoban review (older version) part 1"
+						android:textSize="11sp" android:gravity="left"></TextView>
+				</LinearLayout>
+				<LinearLayout android:gravity="bottom" android:id="@+id/video3"
+					android:background="@drawable/video3" android:layout_height="120dp" android:layout_width="180dp" android:layout_margin="20dp">
+					<TextView android:id="@+id/TextView01"
+						android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#fff"
+						android:background="#aa000000" android:text="Droidkoban review (older version) part 2"
+						android:textSize="11sp" android:gravity="left"></TextView>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>

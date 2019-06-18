@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/buy"></ImageView>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content" android:gravity="top|center"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#eee" android:textSize="20sp" android:gravity="center" android:text="Sorry, you have not yet bought any Droidkoban 3D Addon that gives you more player models to choose from. You can go here to see the available addons for Droidkoban in the Android Market." android:padding="10dp" android:layout_marginBottom="30dp"></TextView>
+<Button android:layout_width="wrap_content" android:text="See available Addons" android:layout_height="wrap_content" android:id="@+id/chooserNotButton"></Button>
+</LinearLayout>
+</LinearLayout>

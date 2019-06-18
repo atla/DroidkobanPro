@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/credits">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="#88000000" android:orientation="vertical" android:gravity="center"><TextView android:textSize="17sp" android:textColor="#fff" android:height="300sp" android:layout_width="fill_parent" android:text="@string/about" android:id="@+id/aboutText" android:layout_margin="10sp" android:gravity="top|center" android:paddingTop="10sp" android:layout_height="wrap_content"></TextView><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/changelogButton" android:text="See Changelog"></Button>
+</LinearLayout>
+</LinearLayout>

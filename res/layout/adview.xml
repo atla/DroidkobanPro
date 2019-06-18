@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="schemas.android.com/apk/res/de.leihwelt.android.droidkobanads"
+	android:gravity="bottom|center" android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout android:id="@+id/glVIew"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"></LinearLayout>
+
+
+</FrameLayout>

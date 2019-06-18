@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:background="@drawable/credits" android:padding="10dp" android:orientation="vertical" android:id="@+id/settingsView">
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical"><CheckBox android:layout_height="wrap_content" android:textSize="17sp" android:linksClickable="true" android:layout_width="fill_parent" android:id="@+id/movementOption" android:text="Enable path based movement"></CheckBox><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="60dp" android:text="Switch between path based and swipe based movement (for touch)"></TextView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical"><CheckBox android:layout_height="wrap_content" android:textSize="17sp" android:linksClickable="true" android:layout_width="fill_parent" android:id="@+id/musicOption" android:text="Enable Music"></CheckBox><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="60dp" android:text="Enable and disable background music playing"></TextView>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <CheckBox android:text="Enable 2D Mode" android:layout_width="fill_parent" android:linksClickable="true" android:textSize="17sp" android:id="@+id/screenOption" android:layout_height="wrap_content"></CheckBox>
+    <TextView android:layout_width="wrap_content" android:text="Enable and disable 2D mode for ingame playing" android:id="@+id/TextView02" android:paddingLeft="60dp" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:background="#99000000"><CheckBox android:layout_height="wrap_content" android:textSize="17sp" android:linksClickable="true" android:layout_width="fill_parent" android:text="Use OpenFeint" android:id="@+id/feintOption"></CheckBox><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="60dp" android:text="Enable and disable automatic OpenFeint login"></TextView>
+</LinearLayout>
+<LinearLayout android:background="#99000000" android:id="@+id/LinearLayout03" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <CheckBox android:textSize="17sp" android:linksClickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Hide UI" android:id="@+id/hideUI"></CheckBox>
+    <TextView android:paddingLeft="60dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView03" android:text="Hide the ingame User Interface"></TextView>
+</LinearLayout>
+</LinearLayout>

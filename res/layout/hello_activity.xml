@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="10dp" android:id="@+id/donateView" android:gravity="top|center">
+<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="18sp" android:textColor="#eee" android:gravity="center" android:layout_marginBottom="10dp" android:text="Thank you for installing Droidkoban 3D! If you like this game please remember to give it a good rating and a comment to let others know how much you liked it! :)"></TextView>
+<ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:src="@drawable/market2" android:scaleType="center"></ImageView><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/market1" android:layout_marginBottom="10dp"></ImageView><TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textColor="#eee" android:gravity="center" android:layout_marginBottom="10dp" android:text="If you happen to like Droidkoban even more, you can always support me by donating via buying Droidkoban Donate in the Android Market."></TextView><Button android:id="@+id/DonateButton" android:layout_height="50sp" android:layout_width="140sp" android:textSize="17sp" android:text="♥ Donate"></Button>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="bottom"><TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:text="You will see this notice only once after installing!"></TextView></LinearLayout>
+
+
+
+</LinearLayout>

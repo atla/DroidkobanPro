@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/calcLayout"  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center">
+
+	<TableRow android:gravity="center">
+		<LinearLayout android:gravity="bottom"
+				android:id="@+id/choose1" android:clickable="true" android:background="@drawable/addon_1" android:layout_height="100dp" android:layout_width="100dp" android:layout_margin="20dp">
+				<TextView android:id="@+id/TextView01"
+					android:layout_height="wrap_content" android:gravity="center" android:textSize="16sp" android:background="#aa000000"
+					android:textColor="#fff" android:layout_width="wrap_content" android:paddingRight="5dp" android:text="Andy"></TextView>
+			</LinearLayout>
+			<LinearLayout android:gravity="bottom"
+				android:id="@+id/choose2" android:clickable="true" android:background="@drawable/addon_2" android:layout_height="100dp" android:layout_width="100dp" android:layout_margin="20dp">
+				<TextView android:id="@+id/TextView01"
+					android:layout_height="wrap_content" android:gravity="center" android:textSize="16sp" android:background="#aa000000"
+					android:textColor="#fff" android:layout_width="wrap_content" android:paddingRight="5dp" android:text="Destructor Bot"></TextView>
+			</LinearLayout>
+	</TableRow>
+
+	<TableRow android:gravity="center">
+<LinearLayout android:gravity="bottom"
+				android:id="@+id/choose3" android:clickable="true" android:background="@drawable/addon_3" android:layout_height="100dp" android:layout_width="100dp" android:layout_margin="20dp">
+				<TextView android:id="@+id/TextView01"
+					android:layout_height="wrap_content" android:gravity="center" android:textSize="16sp" android:background="#aa000000"
+					android:textColor="#fff" android:layout_width="wrap_content" android:paddingRight="5dp" android:text="Future Bot"></TextView>
+			</LinearLayout>
+			<LinearLayout android:gravity="bottom"
+				android:id="@+id/choose4" android:clickable="true" android:background="@drawable/addon_4" android:layout_height="100dp" android:layout_width="100dp" android:layout_margin="20dp">
+				<TextView android:id="@+id/TextView01"
+					android:layout_height="wrap_content" android:gravity="center" android:textSize="16sp" android:background="#aa000000"
+					android:textColor="#fff" android:layout_width="wrap_content" android:paddingRight="5dp" android:text="The Blob"></TextView>
+			</LinearLayout>
+	</TableRow>
+	<TableRow android:gravity="center">
+		<LinearLayout android:gravity="bottom"
+				android:id="@+id/choose5" android:clickable="true" android:background="@drawable/addon_5" android:layout_height="100dp" android:layout_width="100dp" android:layout_margin="20dp">
+				<TextView android:id="@+id/TextView01"
+					android:layout_height="wrap_content" android:gravity="center" android:textSize="16sp" android:background="#aa000000"
+					android:textColor="#fff" android:layout_width="wrap_content" android:paddingRight="5dp" android:text="Aeronaut"></TextView>
+			</LinearLayout>
+
+</TableRow>
+</TableLayout>

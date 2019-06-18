@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Droidkoban for Google TV</string>
+	<string name="instructions">Movement was never easier! Just draw a line or click on a field where you want to move to. You can also use the trackball, WASD keys or the
+		D-PAD to move a single step up, left, down or right\n\nFinish a level by moving all
+		objects onto their targets\n\nUse the yellow arrow on the toolbar to
+		undo, the red to reset a level\n\nTo zoom use the glasses icon on the
+		toolbar</string>
+	<string name="about">This game was developed and published by
+		leihwelt.com\n\nIdea, Code and Graphics - Marcus Körner\n\nFor support
+		or other questions please mail to leihweltsupport@gmail.com\n\nHave a
+		look at www.leihwelt.com\n\n Version 2.5</string>
+	<string name="changelog">1.9\n\n============================\n\nNEW\n\n • Added paid addons, you can now buy several other bots to play with.
+	\n\n • Switched default touch movement to swipe again. You can still enable path based movement in the settings
+	\n\n • Improved the selection of the ingame menu to reduce opening by accident
+	\n\n • Reverted ingame speed calculations (they still need more improvement and testing, sorry)
+	\n\n • Added preliminary 2D mode, this will may be improved in future releases\n\n 
+		1.8.1\n\n============================\n\nNEW\n\n •
+		Added a settings menu for switching back to swipe based movement\n\n •
+		Fixed some speed issues with droid movement speed on Samsung Captivate (and i guess some other devices)\n\n
+		1.8\n\n============================\n\nNEW\n\n •
+		Changed default movement to a whole new waypoint based system using path finding\n\n •
+		Main menu is now completly overhauled and features new social media possibilities\n\n •
+		Added confirm dialog for reset level action\n\n1.6.1\n\n============================\n\nNEW\n\n •
+		Now with Support for Android 2.2 SD Card Installation!\n\n============================\n\nNEW\n\n •
+		Now with Support for Android 1.5\n\n
+		1.5\n\n============================\n\nNEW\n\n • Now with independent
+		playable stories!\n\n • Now with 2400 LEVELS! 400 levels in each
+		story\n\n • New
+		Achievements\n\n\n\n1.12\n\n============================\n\nNEW\n\n •
+		Added Music\n\n • Added colored backgrounds\n\n • Added camera follows
+		player (indirect
+		camera)\n\n\n\n1.11\n\n============================\n\nCritical
+		Bugfix\n\n • Droidkoban didnt save anymore
+		FIXED!\n\n\n\n1.1\n\n============================\n\nNEW\n\n • Now
+		with 500 levels!!\n\n • three new Graphic-Themes!\n\n \t-
+		Dinosaur-Theme\n\n \t- Psychadelic-Theme\n\n \t- Treasure-Theme\n\n •
+		Added Player Shadow\n\n • Ten new achievements!\n\n • New Level
+		finished Screen\n\nBugfixes\n\n • Misplaced level finished Screen on
+		480x800 devices\n\n\n\n1.03\n\n============================\n\nNEW\n\n
+		• Support for landscape, just switch the device!\n\n • Support for new
+		game controls (for droid and G1 owners!)\n\n - DPAD\n\n - W,A,S,D\n\n
+		• Better UI scaling mechanism for 480x800 devices!\n\n • fixed 2
+		achievements\n\n • added 3 new
+		achievements\n\n\n\n1.02\n\n============================\n\nBugfixes\n\n
+		• User could select level in LevelSelection without completing it
+		before\n\n\n\n1.01\n\n============================\n\nBugfixes\n\n •
+		Fixed rendering bug on Motorola Milestone/Droid
+		\n\n\n\n1.0\n\n============================\n\nInitial release
+		with\n\n • 50 levels\n\n • 14 Achievements\n\n • Twitter Support (only
+		for achievement tweeting)\n\n • 3 distinct graphic sets\n\n • Level
+		selection once the level was completed</string>
+</resources>

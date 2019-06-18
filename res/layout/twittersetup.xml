@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="10sp" android:layout_height="fill_parent">
+	<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You can setup your twitter account here. It will be used to report your gained achievements via tweets." android:paddingBottom="10sp" android:layout_marginBottom="10sp" android:cursorVisible="false" android:textSize="17sp"></TextView><CheckBox android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Enable Twitter" android:id="@+id/twitterEnable" android:layout_marginBottom="10sp" android:paddingLeft="50sp"></CheckBox><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/twitterUserView">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="User" android:width="80sp"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/twitterUsername"></EditText>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/twitterPasswordView">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TextView02" android:text="Password" android:width="80sp"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/twitterPassword" android:inputType="textPassword"></EditText>
+	
+
+</LinearLayout><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Example:" android:layout_marginTop="5sp"></TextView><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tweet" android:layout_gravity="center" android:layout_marginTop="5sp"></ImageView><LinearLayout android:id="@+id/LinearLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent"><Button android:text="Accept" android:id="@+id/twitterAcceptButton" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="60sp"></Button></LinearLayout>
+
+
+
+
+</LinearLayout>

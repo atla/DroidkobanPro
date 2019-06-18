@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+<ImageView android:layout_height="wrap_content" android:src="@drawable/buy" android:layout_width="fill_parent" android:scaleType="fitCenter" android:id="@+id/buyAddonsTitle"></ImageView><TextView android:id="@+id/TextView01" android:textColor="#fff" android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="Buy Droidkoban Addons in the Market" android:textSize="17sp" android:padding="5dp" android:gravity="center"></TextView><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+
+
+</LinearLayout>
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"><ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"><LinearLayout android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="fill_parent" android:orientation="horizontal" android:id="@+id/buyAddon1" android:gravity="center"><ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/addon_1" android:padding="5dp"></ImageView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:text="Buy several more skins for the default Andy model" android:textColor="#eee"></TextView>
+
+
+
+
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="fill_parent" android:orientation="horizontal" android:id="@+id/buyAddon2" android:gravity="center"><ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:src="@drawable/addon_2"></ImageView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#eee" android:text="Buy the new Destructor Bot Model with several skins"></TextView>
+
+
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="center" android:id="@+id/buyAddon3"><ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:src="@drawable/addon_3"></ImageView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#eee" android:text="Buy the Future Bot Model with several skins"></TextView>
+
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="center" android:id="@+id/buyAddon4"><ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:src="@drawable/addon_4"></ImageView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#eee" android:text="Buy The Blob with multiple color variations"></TextView>
+
+</LinearLayout></LinearLayout>
+</ScrollView></LinearLayout>
+</ScrollView>
+</LinearLayout>

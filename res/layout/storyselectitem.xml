@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:padding="5sp">
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/t1" android:id="@+id/storyImage"></ImageView><TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:textColor="#fff" android:height="60sp" android:gravity="top|left" android:layout_marginLeft="10sp" android:id="@+id/storyLabel" android:text="Story 1: Classic Sokoban" android:textSize="16sp"></TextView>
+
+</LinearLayout>
